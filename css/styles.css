@@ -1,0 +1,29 @@
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    padding: 0 0 4.5rem;
+    font-family: "ubuntu"; 
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding:  0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+
+}
+
+#title {
+    background-color: #206A5D;
+    color: #fff;
+    text-align: left;
+
+}
