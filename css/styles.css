@@ -22,8 +22,28 @@
 }
 
 #title {
-    background-color: #206A5D;
+    background-color: #3B3486;
     color: #fff;
     text-align: left;
 
 }
+
+.headline-container {
+    padding: 2rem;
+    background-color: #FCFDF2;
+
+}
+
+.title-sparkles {
+    font-family: ubuntu;
+    
+}
+
+.snippet {
+    font-family: raleway;
+}
+
+.email-headline {
+    padding: 5rem;
+}
+
