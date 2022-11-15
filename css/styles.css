@@ -1,49 +1,114 @@
-.navbar {
-    padding: 0 0 4.5rem;
+body {
+  font-family: "raleway";
+  text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "raleway";
+}
+
+p {
+  color: #8f8f8f;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
 
 .navbar-brand {
-    padding: 0 0 4.5rem;
-    font-family: "ubuntu"; 
-    font-size: 2.5rem;
-    font-weight: bold;
+    text-decoration: none;
+  padding: 0 0 4.5rem;
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-color: #8f8f8f;
 }
 
 .nav-item {
-    font-size: 1.5rem;
-    padding:  0 18px;
+  font-size: 1.5rem;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-family: "montserrat-light";
-
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
 }
 
 #title {
-    background-color: #3B3486;
-    color: #fff;
-    text-align: left;
-
+  background-color: #2c3333;
+  text-align: left;
 }
 
 .headline-container {
-    padding: 2rem;
-    background-color: #FCFDF2;
-
+  padding: 2% 1%;
+  background-color: #E7F6F2;
+  color: #2c3333;
 }
 
 .title-sparkles {
-    font-family: ubuntu;
-    
+  font-family: ubuntu;
+  padding: 0% 0% 1% 0%;
 }
 
 .snippet {
-    font-family: raleway;
+  font-family: raleway;
+  padding: 2% 0%;
 }
 
 .email-headline {
-    padding: 5rem;
+  text-color: #7743db;
 }
 
+/* projects section */
+
+#projects {
+  background-color: #A5C9CA;
+  padding: 100px;
+  text-align: center;
+}
+
+.project-headline {
+  color: #2c3333;
+}
+.projects-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  color: #2c3333;
+  font-size: 30px;
+  margin: 3px;
+}
+.learn-more {
+  text-decoration: none;
+  color: #2c3333;
+}
+.learn-more:hover {
+    text-decoration:none;
+    color: #E7F6F2;
+}
+.card-body {
+    font-size: 20px;
+}
+
+#footer {
+  background-color: #2c3333;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 10px;
+  color: #E7F6F2;
+}
+
+
+/* media queries */
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+}
