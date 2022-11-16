@@ -71,6 +71,10 @@ body {
     font-family: ubuntu;
   }
 
+  .intro-p {
+    color: #2c3333;
+  }
+
   /* about  */
 
   #about {
