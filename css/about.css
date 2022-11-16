@@ -59,9 +59,9 @@ body {
   }
 
   .intro-image {
-    width: 30%;
-    height: 30%;
-    margin: 5% 35% 5%;
+    width: 20%;
+    height: 20%;
+    margin: 5% 40% 5%;
     border-radius: 50%;
     z-index: 0;
   }
@@ -71,17 +71,10 @@ body {
     font-family: ubuntu;
   }
 
-  /* intro cards */
+  /* about  */
+
   #about {
     padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
-
-}
-
-.about-box {
-    padding: 5%;
     background-color: #395B64;
     color: #E7F6F2;
 
@@ -95,6 +88,20 @@ body {
   color: #E7F6F2;
   margin-bottom: 1rem;
 }
+
+/* image carousel  */
+#image-carousel {
+  background-color: #A5C9CA; 
+  padding: 5% 15%;
+}
+
+
+.carousel-item {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+}
+
 
 
 /* footer */
