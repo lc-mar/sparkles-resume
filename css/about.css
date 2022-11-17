@@ -42,16 +42,10 @@ body {
     text-align: left;
   }
   
-  .headline-container {
-    padding: 2% 1%;
-    background-color: #E7F6F2;
-    color: #2c3333;
-  }
 
   /* intro   */
   #intro {
     background-color: #E7F6F2;
-    color:#2c3333;
   }
   .intro-container {
     padding: 2% 1%;
@@ -69,6 +63,7 @@ body {
   .intro-snippet {
     text-align: center;
     font-family: ubuntu;
+    color: #2c3333;
   }
 
   .intro-p {
