@@ -13,7 +13,7 @@ body {
   }
   
   p {
-    color: #8f8f8f;
+    color: #2c3333;
   }
   /* navbar  */
 
@@ -67,14 +67,27 @@ body {
 #job-history {
   padding: 5%;
   background-color: #A5C9CA;
+  color: #2c3333;
 }  
+
+/* skills  */
 #skills {
   padding: 5%;
   background-color: #E7F6F2;
 }  
+
+.skills-list {
+  margin-left: 20px;
+  font-style: italic;
+  color: #8f8f8f;
+}
+
+/* education  */
 #education {
   padding: 5%;
   background-color: #A5C9CA;
+  color: #2c3333;
+  
 }  
 .years {
   font-style: italic;
