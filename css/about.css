@@ -72,20 +72,29 @@ body {
 
   /* about  */
 
+  .icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 30%;
+    color: #E7F6F2;
+    margin-bottom: 1rem;
+  }
+  
   #about {
     padding: 7% 15%;
     background-color: #395B64;
     color: #E7F6F2;
-
 }
 
 .about-title {
+  text-align: left;
     line-height: 1.5;
 }
-
-.icon {
-  color: #E7F6F2;
-  margin-bottom: 1rem;
+.about-list {
+  list-style-type: circle;
+  text-indent: -20px;
+  margin-left: 20px;
 }
 
 /* image carousel  */
@@ -106,6 +115,9 @@ body {
   color: #E7F6F2;
   text-align: center;
   padding: 7% 15%;
+}
+.quote-name {
+  font-style: italic;
 }
 
 /* footer */
