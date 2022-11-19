@@ -13,7 +13,7 @@ h6 {
 }
 
 p {
-  color: #2c3333;
+  color: #8f8f8f;
 }
 /* navbar  */
 .navbar {
@@ -62,6 +62,7 @@ p {
 .snippet {
   font-family: raleway;
   margin: 0;
+  color: #2c3333;
 
 }
 
@@ -112,6 +113,8 @@ p {
   margin: 20px 10px;
   color: #E7F6F2;
 }
+
+
 
 
 /* media queries */

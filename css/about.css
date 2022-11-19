@@ -12,7 +12,7 @@ body {
   }
   
   p {
-    color: #E7F6F2;
+    color: #8f8f8f;
   }
   .navbar {
     padding: 0 0 4.5rem;
@@ -91,6 +91,7 @@ body {
   text-align: left;
     line-height: 1.5;
 }
+
 .about-list {
   list-style-type: circle;
   text-indent: -20px;
